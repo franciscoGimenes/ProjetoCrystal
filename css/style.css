@@ -173,3 +173,6 @@ form{
     display: flex;
     justify-content: space-between;
 }
+.menu-barras{
+    display: none;
+}

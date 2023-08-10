@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <title>Projeto Crystal</title>
+    <script src="https://kit.fontawesome.com/5c6f323052.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
         <div class="container">
             <h1 id="logo">CRYSTAL</h1>
-            <nav class="menu">
+            <nav id="menu-nav" class="menu">
                 <a href="#" class="item">Inicio</a>
                 <a href="#" class="item">Planos</a>
                 <a href="#" class="item">Contato</a>
             </nav>
+            <div class="menu-barras">
+                <a class="menu-barras" onclick="mostrarMenu()">
+                    <i id="icone" class="fa-solid fa-bars"></i>
+                </a>     
+            </div>
         </div>
     </header>
     <main id="main">
@@ -121,5 +128,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
